@@ -1,0 +1,7 @@
+export DRIFT_GATEWAY_KEY=/home/gerry/.wallet/solana/gerry.json
+
+./target/release/drift-gateway https://spring-greatest-sailboat.solana-mainnet.quiknode.pro/7cef440007965579f994752a48752c78569114c9/ --host localhost --port 8080 --delegate 84sJktRnCeFLtfiqZiZe75r8Uhpjk8V4VcnewbrkKeg6 --verbose
+
+curl localhost:8080/v2/transactionEvent/4TB4AWqiRrNpRQEVtcZzvwm2xhyVQv7jHnMnMxtMY7AKx6R4HA4juURdzdBQW5GvnyeHCUZuzPRjuusoaUEG5Xg9?subAccountId=0
+
+curl localhost:8080/v2/transactionEvent/4pQWVjGCPinewcxX2wPF3E3P2BopWwNAE347dgbjSojRRT9b7ksbdaTQUFyp8uykpoNfDZcwCdxo7nLwKnrqGCw2?subAccountId=0
